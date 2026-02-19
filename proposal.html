@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Big Question 💍</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="hearts-layer" id="heartsLayer"></div>
+
+  <main class="container">
+    <section class="card">
+      <h1>Will you be my Valentine? 💘</h1>
+      <p class="subtitle">Choose carefully… 😄</p>
+
+      <div class="mini-row">
+        <img src="assets/her.jpg" alt="Her Photo" class="mini-photo" />
+        <div class="mini-note">
+          <p>Whatever you choose, you’ll always be special to me ❤️</p>
+        </div>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn success" id="acceptBtn">Yes! 🥰</button>
+        <button class="btn danger" id="declineBtn">No 🙈</button>
+      </div>
+
+      <div id="status" class="status"></div>
+
+      <a class="link" href="index.html">← Back to card</a>
+    </section>
+  </main>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script src="js/hearts.js"></script>
+  <script src="js/notify.js"></script>
+</body>
+</html>
